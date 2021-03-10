@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title> ** CURSO HARVARD ****</title>   
+        <link rel="stylesheet" href="estilos.css">
+        <style>
+            .photo{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+}
+            button:hover { 
+                background-color:crimson;
+
+
+            }
+
+             table {
+                 border: 1px solid black;
+                 border-collapse: collapse;
+                 text-align: center;
+             }
+             td,th{
+                 border: 1px solid black; text-align: center; padding: 3px;
+             }
+        </style>
+    </head>
+    <body>
+        <div id="bloco">
+        <h1> ** Título da Página em H1 **</h1>
+        <h1> - As configurações de cores estão no Head style de H1 -</h1>
+        <h2>Texto menor em H2</h2>
+        <div>
+
+        <div>    
+        Uma lista ordenada:
+        <ol>
+            <li>Primeiro item da lista</li>
+            <li>Segundo item da lista</li>    
+        </ol>
+        Uma lista desordenada:
+        <ul>
+            <li>Primeiro item da lista</li>
+            <li>Segundo item da lista</li>
+        </ul>
+        <div>
+
+
+        <div> 
+        <img src="09APR.jpg" alt="Vida!" width="300" class="photo">
+        <div>
+
+        <br><br><br><br>
+        Acesse a nossa segunda página:
+        <a href="file:///C:/Users/andre/Desktop/HTML/pagina_linkada.html">Página Linkada</a>
+        <br><br><br><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Oceano</th>
+                    <th>Profundidade Média</th>
+                    <th>Profundidade Máxima</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Oceano Pacífico</td>
+                    <td>4,200 metros</td>
+                    <td>10,911 metros</td>
+                </tr>
+                <tr>
+                    <td>Oceano Atlântico</td>
+                    <td>3,646 metros</td>
+                    <td>8,486 metros</td>
+                </tr>
+            </tbody>
+        </table>
+        <form>
+            <br><br><br><br>
+            Usuário:
+            <input type="text"placeholder="user" name="user">
+            <br>
+            Senha:
+            <input type="password"placeholder="senha" name="password">
+            <br>
+            <input type="submit">
+        </form>
+        <br>
+        Informe sua divisão:
+        <input name="divisao" type="radio" value="agencia"> Agência
+        <input name="divisao" type="radio" value="cia_aerea"> Cia Aérea
+        <input name="divisao" type="radio" value="cliente"> Cliente
+        <br><br><br>
+        Origem:
+        <br>
+        <input name="pais" list="Países" placeholder="País">
+        <datalist id="Países">
+            <option value="Brasil">
+            <option value="México">
+            <option value="Estados Unidos">
+            </option>
+        </datalist>
+        <br>
+        <input name="cidade" list="cidades" placeholder="Cidade">
+        <datalist id="cidades">
+            <option value="São Paulo">
+            <option value="Rio de Janeiro">
+            <option value="Belo Horizonte">
+            </option>
+        </datalist>
+        <br><br><br>
+        <button class="photo">Click me</button>
+        <br><br<br>
+    </body>
+</html>
